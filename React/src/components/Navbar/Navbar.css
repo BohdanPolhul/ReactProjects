@@ -1,0 +1,29 @@
+nav{
+  grid-area: n;
+  background-color: red;
+  padding: 20px;
+  border-bottom-left-radius: 15px;
+  
+}
+ a{
+  color: white;
+  text-decoration: none;
+}
+.active{
+  color: gold;
+}
+.place{
+  color: aqua;
+  display: grid;
+  grid-template-columns: 3.5fr 3fr 1fr ;
+  
+}
+.padding{
+  padding-top: 40px;
+}
+.SettingPadding{
+  padding-top: 20px;
+}
+
+
+

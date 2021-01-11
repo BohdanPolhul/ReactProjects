@@ -1,0 +1,17 @@
+.app-wrapper{
+    display: grid;
+    width: 1200px;
+    margin: auto           ;
+    padding-bottom:auto;
+    grid-template-areas: 
+    "h h"
+    "n c";
+    grid-template-rows: 60px 1fr;
+    grid-template-columns: 2fr 10fr;
+    grid-gap:10px;/*віступи між блоками*/
+}
+.app-wrapper-content{
+    grid-area: c;
+    background-color: yellowgreen;
+    border-bottom-right-radius: 15px;
+}

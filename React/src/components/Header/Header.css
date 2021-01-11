@@ -1,0 +1,8 @@
+.header{
+  grid-area: h;/*Enter random name*/
+  background-color: rebeccapurple;
+  border-top-right-radius: 15px;
+}
+.header img{
+  width: 6.16%;
+}
